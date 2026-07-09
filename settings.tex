@@ -1,3 +1,5 @@
+% !TeX root = main.tex
+
 \documentclass[11pt]{article}
 \usepackage{xltxtra}
 \usepackage{bookmark}
@@ -73,21 +75,25 @@
 \renewcommand{\arraystretch}{1.2}  % 表格行距
 \linespread{1.2}                   % 正文行距
 \renewcommand{\CJKglue}{\hskip 0.05em}  % 中文字符间距
+\emergencystretch=2em
+\hfuzz=10pt
+\hbadness=10000
+
+% 带图标的节标题，同时给 PDF 书签提供纯文本标题
+\newcommand{\cvsection}[2]{%
+  \section[#2]{\texorpdfstring{\makebox[\widthof{#1}][c]{\color{HIT_Blue}{#1}}\quad #2}{#2}}%
+}
 
 % ====================== 字体设置 ======================
 % 英文字体：狮尾四季春
 \setmainfont[
-    Path=fonts/,
-    Extension=.ttf,
-    BoldFont=* Bold,
-]{SweiSpring}
+  BoldFont={獅尾四季春加糖},
+]{獅尾四季春加糖}
 
 % 中文字体：狮尾四季春
 \setCJKmainfont[
-    Path=fonts/,
-    Extension=.ttf,
-    BoldFont=* Bold,
-]{SweiSpring}
+  BoldFont={獅尾四季春加糖},
+]{獅尾四季春加糖}
 
 % ====================== 主题色设置 ======================
 % 哈工大校徽标准色（RGB: 0, 83, 117），参考https://xcb.hitwh.edu.cn/_upload/article/files/fa/5c/e1e0bdb340e98b473b5a0e34963c/6250efd5-f74a-47bb-b5a7-8a8b86f9451b.pdf第14页
