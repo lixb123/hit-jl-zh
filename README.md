@@ -1,6 +1,6 @@
 # hit-jl-chinese
 
-哈尔滨工业大学HIT简历模板，全文更换为了统一格式，见settings.tex，且允许了路径中出现中文字体。(个人使用的是 vscode + LateX Workshop + miktex + perl)
+哈尔滨工业大学HIT简历LaTeX模板，全文更换为了统一格式，见settings.tex，且允许了路径中出现中文字体。(个人使用的是 vscode + LateX Workshop + miktex + perl)
 
 [最终版 PDF 下载](./main.pdf)
 
