@@ -20,6 +20,7 @@
 \usepackage{fontawesome5}
 \usepackage{titlesec}
 \usepackage{enumitem}
+\usepackage{indentfirst}
 \usepackage{siunitx}
 \usepackage{amssymb}
 \usepackage{tabularx}
@@ -36,7 +37,7 @@
 \protected\def\Cpp{{C\nolinebreak[4]\hspace{-.05em}\raisebox{.28ex}{\relsize{-1}++}}\xspace}
 
 % 全局格式设置
-\setlength{\parindent}{0pt}    % 取消段落缩进
+\setlength{\parindent}{2em}    % 正文首行缩进两个中文字符
 \pagenumbering{gobble}         % 取消页码显示
 
 % 列表格式设置
@@ -50,7 +51,7 @@
   {}{0em}                        % 标题前缀
   {}                             % 标题代码
   [{\color{HIT_Blue}\titlerule}]% 标题下方蓝色分隔线
-\titlespacing*{\section}{0cm}{*1.2}{*1.2}  % 间距设置
+\titlespacing*{\section}{0cm}{*4.0}{*2.0}  % 间距设置
 
 % 二级标题格式  
 \titleformat{\subsection}

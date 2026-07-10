@@ -9,10 +9,10 @@
     \scriptsize  % 使用较小字号
     \textcolor{white}{
         % 邮箱
-        \faEnvelope \quad \href{mailto:23b905015@stu.hit.edu.cn}{23xxxxxx@stu.hit.edu.cn}
+        \faEnvelope \quad \href{mailto:23b905015@stu.hit.edu.cn}{23b905015@stu.hit.edu.cn}
         \hspace{4em}
         % 手机号
-        \faPhone \quad  11111111111
+        \faPhone \quad  1111111111
         % GitHub
         \hspace{4em}
         \faGithub \quad \href{https://github.com/lixb123}{https://github.com/lixb123}
@@ -89,118 +89,118 @@
 \cvpagebackground
 
 % ====================== 个人信息 ======================
-\begin{figure}[h]
-    \begin{minipage}{0.82\textwidth}
+\noindent
+\begin{minipage}[t]{0.82\textwidth}
         \cvsection{\faAddressCard}{个人信息}
         \begin{tabularx}{\linewidth}{p{\widthof{出生日期:}}Xp{\widthof{政治面貌:}}X}
             姓\ \ \ \ \ \ \ \ 名: & XXX & 
-            性\ \ \ \ \ \ \ \ 别: & X  \\
-            出生年月: & 2XXX年X月 & 
+            性\ \ \ \ \ \ \ \ 别: & 男  \\
+            出生年月: & 2000年8月 & 
             政治面貌: & 预备党员 \\
         \end{tabularx}
-    \end{minipage}
-    \hfill
-    \begin{minipage}{0.12\textwidth}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.12\textwidth}
+        \vspace{0pt}
         \setlength{\fboxsep}{0pt}
         \doublebox{\includegraphics[width=\linewidth]{images/avatar.png}}
-    \end{minipage}
-\end{figure}
-\vspace{-1em}
+\end{minipage}
 
 % ====================== 教育背景 ======================
+{\setlength{\parindent}{0pt}
 \cvsection{\faGraduationCap}{教育背景}
-\vspace{-0.5em}
-\begin{table}[h!]
-    \begin{tabularx}{\textwidth}{XXp{\widthof{2022年 -- 预计2026年6月毕业}}}
-        哈尔滨工业大学 & 通信工程 & 2019年 -- 2023年6月\\
-        \textbf{GPA: XX.X/100.00} & \textbf{学分绩排名: X/XX} \\
-    \end{tabularx}
-\end{table}
-\begin{tabularx}{\textwidth}{@{}XlX@{}}
-    \textbf{2023.09-2024.03} & 班级团支书 & \\
-    \textbf{2024.09-2024.12} & 学生会主席 & \\
+\begin{tabularx}{\textwidth}{XXp{\widthof{2023年 -- 预计2028年6月毕业}}}
+    哈尔滨工业大学本科 & 信息对抗 & 2019年 -- 2023年6月\\
+    哈尔滨工业大学博士在读 & 信息与通信工程 & 2023年 -- 预计2028年6月\\
+    \textbf{2022.09-2023.06} & 班级团支书 & \\
+    \textbf{2021.09-2022.06} & 业余无线电社团技术主席 & \\
 \end{tabularx}
+}
 
 % ====================== 项目经历 ======================
-\cvsection{\faChalkboardTeacher}{在校项目}
+\cvsection{\faChalkboardTeacher}{项目经历}
+
 \vspace{0.5em}
-{\large{\textbf{智能图书馆管理系统}}} \hfill {进行中}\\
-基于Spring Boot和Vue.js开发的图书馆管理系统，实现了图书借阅、归还、预约等功能，采用微服务架构，使用Redis缓存提高系统性能。
+\noindent{\large{\textbf{基于飞行试验保障的电磁态势融合感知技术研究}}} \hfill {2026年4月-至今}
+
+针对跨域多节点动态场景，研究自主分布式智能感知决策与态势融合技术。
+
+我在其中负责广域分布多弱隐目标联合定位与误差校正方法的研究，提出了基于多源信息融合的弱隐目标联合定位方法，将在飞行试验中验证其有效性。
+
 
 \vspace{1em}
-{\large{\textbf{校园二手交易平台}}} \hfill {完结}\\
-使用Django框架开发的校园二手交易平台，实现了用户注册、商品发布、在线交易等功能，采用RESTful API设计，使用JWT进行用户认证。
+\noindent{\large{\textbf{激光雷达数据处理与风速反演}}} \hfill {2025年12月-至今}
+
+项目为城市风场测量与预测技术研究中的专题一，即自研激光测风雷达数据处理与风速反演。
+
+我在其中负责高采样速率和高采样精度的模拟信号采集及处理模块研制及其驱动组件编写。
+
 
 \vspace{1em}
-{\large{\textbf{基于深度学习的图像分类系统}}} \hfill {完结}\\
-使用PyTorch框架实现的图像分类系统，基于ResNet模型，在CIFAR-10数据集上达到了92\%的准确率，并开发了友好的Web界面。
+\noindent{\large{\textbf{基于智能算法的遥测跟踪技术}}} \hfill {2024年9月-2026年3月}
+
+研究飞行试验天线跟踪特性，优化目标自动跟踪方法，设计面向任务场景的全过程天线智能跟踪方法。
+
+我在其中负责飞行轨迹数据智能预测功能。即根据历史数据建立飞机轨迹预测模型，在飞行中进行飞行轨迹的外推预测，确保遥测信号短时中断时，天线能够在数字引导模式下继续精准跟踪目标，提高天线数字引导模式下跟踪的准确性和连续性。
+
 
 \vspace{1em}
-{\large{\textbf{智能图书馆管理系统}}} \hfill {进行中}\\
-基于Spring Boot和Vue.js开发的图书馆管理系统，实现了图书借阅、归还、预约等功能，采用微服务架构，使用Redis缓存提高系统性能。
+\noindent{\large{\textbf{全军先锋杯-题目二}}} \hfill {2024年5月-2024年10月}
+
+该题目要求参赛队自主设计面向信号检测识别的专用智能化处理网络模型，实现复杂场景下信号检测、调制识别、定位以及辐射源运动属性判决等任务的高效处理。
+
+我在其中负责基于深度学习的信号检测与调制识别算法研究，使用了基于CNN-LSTM的信号检测与调制识别算法，能够在复杂信道条件下，对给定单站接收的带宽范围内可能存在的多个信号进行检测和识别。
+
 
 \vspace{1em}
-{\large{\textbf{校园二手交易平台}}} \hfill {完结}\\
-使用Django框架开发的校园二手交易平台，实现了用户注册、商品发布、在线交易等功能，采用RESTful API设计，使用JWT进行用户认证。
+\noindent{\large{\textbf{认知雷达抗干扰探测与智能识别技术}}} \hfill {2023年9月-2025年11月}
+
+本项目研究认知雷达的抗干扰探测与智能识别技术，结合非凸优化、现代雷达理论中的相关方法开展智能态势认知研究。
+
+我在其中负责基于深度学习的认知雷达智能识别算法研究，提出了基于LSTM-RHLF的认知雷达智能识别算法，能够在复杂电磁环境下实现对目标的快速识别和分类。
+
 
 \vspace{1em}
-{\large{\textbf{基于深度学习的图像分类系统}}} \hfill {完结}\\
-使用PyTorch框架实现的图像分类系统，基于ResNet模型，在CIFAR-10数据集上达到了92\%的准确率，并开发了友好的Web界面。
+\noindent{\large{\textbf{天都二号备份测控系统天线设计}}} \hfill {2023年5月-2023年12月}
+
+本项目旨在设计天都二号卫星备份测控系统的UHF频段天线，确保数字图传任务的正常进行。
+
+我在其中负责天线设计与优化，采用CST电磁仿真工具进行UHF频段全向天线性能分析和参数调整，确保天线在各种工作环境下的稳定性和可靠性。
+
 
 \vspace{1em}
-{\large{\textbf{智能图书馆管理系统}}} \hfill {进行中}\\
-基于Spring Boot和Vue.js开发的图书馆管理系统，实现了图书借阅、归还、预约等功能，采用微服务架构，使用Redis缓存提高系统性能。
+\noindent{\large{\textbf{阿斯图卫星测控系统设计}}} \hfill {2022年5月-2024年11月}
 
-\vspace{1em}
-{\large{\textbf{校园二手交易平台}}} \hfill {完结}\\
-使用Django框架开发的校园二手交易平台，实现了用户注册、商品发布、在线交易等功能，采用RESTful API设计，使用JWT进行用户认证。
+本项目旨在设计阿斯图卫星测控系统，确保卫星测控任务的正常进行。
 
-\vspace{1em}
-{\large{\textbf{基于深度学习的图像分类系统}}} \hfill {完结}\\
-使用PyTorch框架实现的图像分类系统，基于ResNet模型，在CIFAR-10数据集上达到了92\%的准确率，并开发了友好的Web界面。
+我在其中负责系统设计与优化，主测控系统沿用了紫丁香二号卫星的测控系统架构，并进行了SSDV功能扩展。备份测控系统采用了SDR软件无线电技术，可实现卫星通信功能在轨更新。设计了VHF/UHF频段全向天线，并进行了性能分析和参数调整。
 
-\vspace{1em}
-{\large{\textbf{智能图书馆管理系统}}} \hfill {进行中}\\
-基于Spring Boot和Vue.js开发的图书馆管理系统，实现了图书借阅、归还、预约等功能，采用微服务架构，使用Redis缓存提高系统性能。
-
-\vspace{1em}
-{\large{\textbf{校园二手交易平台}}} \hfill {完结}\\
-使用Django框架开发的校园二手交易平台，实现了用户注册、商品发布、在线交易等功能，采用RESTful API设计，使用JWT进行用户认证。
-
-\vspace{1em}
-{\large{\textbf{基于深度学习的图像分类系统}}} \hfill {完结}\\
-使用PyTorch框架实现的图像分类系统，基于ResNet模型，在CIFAR-10数据集上达到了92\%的准确率，并开发了友好的Web界面。
 
 % ====================== 竞赛经历 ======================
+{\setlength{\parindent}{0pt}
 \cvsection{\faTrophy}{竞赛经历}
-\vspace{-1em}
-\begin{table}[h!]
-    \begin{tabularx}{\textwidth}{Xp{\widthof{第零零负责人人人}}p{\widthof{国家级-第100名}}p{\widthof{2030年13月}}}
-        \textbf{2023年全国大学生数学建模竞赛} & 队长 & 全国一等奖 & 2023年9月 \\
-        \textbf{2023年"互联网+"大学生创新创业大赛} & 核心成员 & 省级金奖 & 2023年7月\\
-        \textbf{2023年ACM-ICPC亚洲区域赛} & 队员 & 铜奖 & 2023年11月\\
-        \textbf{2023年全国大学生数学建模竞赛} & 队长 & 全国一等奖 & 2023年9月 \\
-        \textbf{2023年"互联网+"大学生创新创业大赛} & 核心成员 & 省级金奖 & 2023年7月\\
-        \textbf{2023年ACM-ICPC亚洲区域赛} & 队员 & 铜奖 & 2023年11月\\
-    \end{tabularx}
-\end{table}
+\begin{tabularx}{\textwidth}{Xp{\widthof{第零零负责人人人}}p{\widthof{国家级-第100名}}p{\widthof{2030年13月}}}
+    \textbf{2024年研究生电子设计竞赛} & 队长 & 省级二等奖 & 2024年7月\\
+    \textbf{2023年"挑战杯"大学生创新创业大赛} & 队员 & 省级金奖 & 2023年7月\\
+    \textbf{2021年全国大学生电子设计竞赛} & 队长 & 全国二等奖 & 2021年11月\\
+\end{tabularx}
+}
 
 % ====================== 技能特长 ======================
 \cvsection{\faWrench}{技能特长}
-\vspace{0.5em}
 \begin{itemize}
-    \item 编程语言：熟练掌握Java、Python、C++，了解Go、Rust
-    \item Web开发：熟悉Spring Boot、Django、Vue.js等框架
-    \item 数据库：熟练使用MySQL、Redis、MongoDB
+    \item 编程语言：熟练掌握Python、C++、Matlab
+    \item 通信算法：熟悉通信原理，雷达信号处理，信号检测与估计，调制识别，并探索将其与深度学习、机器学习方法结合
+    \item 射频电路设计：自制射频电路，用于业余无线电实验，熟悉射频电路设计流程，掌握ADS、CST等仿真软件
 \end{itemize}
 
 % ====================== 所获荣誉 ======================
 \cvsection{\faStar}{所获荣誉}
-\vspace{-1em}
+\vspace{-0.8em}
+\setlength{\multicolsep}{0pt}
 \begin{multicols}{2}
     \begin{itemize}
-        \item 2022-2023学年一等奖学金
-        \item 2022-2023学年校级优秀学生干部
+        \item 2022-2023学年省二等奖学金
+        \item 2021-2022学年校级优秀社团学生干部
     \end{itemize}
 \end{multicols}
 
