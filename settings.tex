@@ -59,7 +59,7 @@
   {}{0em}                        % 标题前缀
   {}                             % 标题代码
   []
-\titlespacing*{\subsection}{0cm}{*1.2}{*1.2}  % 间距设置
+\titlespacing*{\subsection}{0cm}{*2.4}{*0.8}  % 间距设置
 
 % ====================== 页面布局设置 ======================
 % 页面尺寸与边距
@@ -85,15 +85,24 @@
   \section[#2]{\texorpdfstring{\makebox[\widthof{#1}][c]{\color{HIT_Blue}{#1}}\quad #2}{#2}}%
 }
 
+\newcommand{\cvsubsection}[2]{%
+  \subsection[#2]{\texorpdfstring{\makebox[\widthof{#1}][c]{\color{HIT_Blue}{#1}}\quad #2}{#2}}%
+}
+
+\newcommand{\cvprojecttitle}[1]{\textbf{#1}}
+\newcommand{\cvhighlight}[1]{\textbf{#1}}
+
 % ====================== 字体设置 ======================
 % 英文字体：狮尾四季春
 \setmainfont[
   BoldFont={獅尾四季春加糖},
+  BoldFeatures={FakeBold=1.5},
 ]{獅尾四季春加糖}
 
 % 中文字体：狮尾四季春
 \setCJKmainfont[
   BoldFont={獅尾四季春加糖},
+  BoldFeatures={FakeBold=1.5},
 ]{獅尾四季春加糖}
 
 % ====================== 主题色设置 ======================
