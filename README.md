@@ -118,4 +118,4 @@ TeX Live 可使用其包管理工具安装缺失宏包；MiKTeX 可在其设置�
 
 示例姓名为“雅各布”，政治面貌字段为“中共预备党员”。这些是模板演示字段，不用于描述照片人物的实际经历或身份。
 
-示例照片为欧文·雅各布（Irwin M. Jacobs），来源：[Wikimedia Commons — Irwin Jacobs (2005).jpg](https://commons.wikimedia.org/wiki/File:Irwin_Jacobs_(2005).jpg)，作者 Dananderson；来源页面注明作者已将照片置于公有领域。
+示例照片为欧文·雅各布（Irwin M. Jacobs）于 1966—1967 年在 UCSD 任教初期的肖像，当时约 33 岁。照片提取自 Joel West 的文章 [Before Qualcomm: Linkabit and the Origins of San Diego’s Telecom Industry](https://www.sandiegohistory.org/journal/v55-1/pdf/v55-1west.pdf)（《The Journal of San Diego History》，55(1–2)，第 3 页；[存档副本](https://web.archive.org/web/20210116141830/https://sandiegohistory.org/journal/v55-1/pdf/v55-1west.pdf)）。原图注明确标注为 1966–67 年，并署名“Courtesy of Irwin M. Jacobs”。保留原始肖像内容，仅转换为适合模板使用的 JPEG 格式。
