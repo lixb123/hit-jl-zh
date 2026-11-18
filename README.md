@@ -4,6 +4,10 @@
 
 [查看示例 PDF](./main.pdf)
 
+![匿名简历预览，第 1 页](images/preview-1.png)
+
+![匿名简历预览，第 2 页](images/preview-2.png)
+
 ## 环境要求
 
 - Git（可选，用于克隆仓库）
@@ -107,3 +111,9 @@ TeX Live 可使用其包管理工具安装缺失宏包；MiKTeX 可在其设置�
 本模板基于[西北工业大学中文 CV 模板](https://www.overleaf.com/latex/templates/npu-cv/mncqzxhvfzrx)和[北京邮电大学 BUPT 简历模板](https://github.com/Yokumii/BUPT-CV-Template)调整而来。
 
 字体使用[狮尾四季春](https://github.com/max32002/swei-spring)，感谢原作者。
+
+## 示例信息与图片来源
+
+示例中的学号、邮箱用户名和日期数字使用等长的 `x` 占位，邮箱保留 `@` 后的完整域名。
+
+示例照片为克劳德·香农，来源：[Wikimedia Commons — Claude Shannon c1930.png](https://commons.wikimedia.org/wiki/File:Claude_Shannon_c1930.png)（页面注明来源为密歇根大学 Bentley Historical Library，公有领域）。照片仅用于展示模板。
