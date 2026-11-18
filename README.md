@@ -39,7 +39,7 @@
 4. 编辑内容：
 
    - 在 `main.tex` 中填写个人信息、教育背景与经历
-   - 用自己的照片替换 `images/avatar.png`
+   - 用自己的照片替换 `images/irwin_jacobs.jpg`
    - 需要调整全局字体、标题、页面尺寸或主题色时，编辑 `settings.tex`
 
 5. 连续编译两次以生成稳定的书签和交叉引用：
@@ -116,4 +116,6 @@ TeX Live 可使用其包管理工具安装缺失宏包；MiKTeX 可在其设置�
 
 示例中的学号、邮箱用户名和日期数字使用等长的 `x` 占位，邮箱保留 `@` 后的完整域名。
 
-示例照片为克劳德·香农，来源：[Wikimedia Commons — Claude Shannon c1930.png](https://commons.wikimedia.org/wiki/File:Claude_Shannon_c1930.png)（页面注明来源为密歇根大学 Bentley Historical Library，公有领域）。照片仅用于展示模板。
+示例姓名为“雅各布”，政治面貌字段为“中共预备党员”。这些是模板演示字段，不用于描述照片人物的实际经历或身份。
+
+示例照片为欧文·雅各布（Irwin M. Jacobs），来源：[Wikimedia Commons — Irwin Jacobs (2005).jpg](https://commons.wikimedia.org/wiki/File:Irwin_Jacobs_(2005).jpg)，作者 Dananderson；来源页面注明作者已将照片置于公有领域。
